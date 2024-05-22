@@ -1,15 +1,75 @@
-{"cards": [{
+{"cards": [
+{
     "id": 1,
-    "image": "https://images3.memedroid.com/images/UPLOADED654/65a7e918225bf.jpeg",
-    "revealed": false
+    "image": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/macarena-1536x614.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Parque Nacional Natural Sierra de la Macarena",
+    "text": "Este parque está ubicado en el municipio de la Macarena, en el departamento del Meta. Sus sorprendentes paisajes lo han puesto como uno de los destinos marca país de Colombia. Su principal atracción es el Caño Cristales, considerado por muchos como el río más hermoso del mundo."
+
 },
 {
     "id": 2,
-    "image": "https://media.4-paws.org/1/e/d/6/1ed6da75afe37d82757142dc7c6633a532f53a7d/VIER%20PFOTEN_2019-03-15_001-2886x1999-1920x1330.jpg",
-    "revealed": false
+    "image": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/pnn-tayrona-da-7-1-1536x480.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Parque Nacional Natural Tayrona",
+    "text": "What's this? OwO"
 },
 {
     "id": 3,
-    "image": "https://media-bog2-1.cdn.whatsapp.net/v/t61.24694-24/257921610_570492144138715_4763796898803254562_n.jpg?ccb=11-4&oh=01_Q5AaIDWpEiYRIWm3NoAIcGqLPm84QG6woX46gfqsU-4FkTb0&oe=6654F2D4&_nc_sid=e6ed6c&_nc_cat=105",
-    "revealed": false
-}]}
+    "image": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/nevdos-1536x614.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Parque Nacional Natural Los Nevados",
+    "text": "Proyecto de mierda me quiero matar :)"
+},
+{
+    "id": 4,
+    "image": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/06/PAO4592@PaolaMariaSanchezBIO-Ricardo-Sanchez-DTPA-800x400.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Parque Nacional Natural Gorgona",
+    "text": "1"
+},
+{
+    "id": 5,
+    "image": "https://www2.sgc.gov.co/patrimonio/PublishingImages/iniciativa/ini-nr-03.png",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Proyecto Geoparque Volcánico del Ruiz",
+    "text": "What's this? OwO"  
+},
+{
+    "id": 6,
+    "image": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/chingaza.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Parque Nacional Natural Chingaza",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec finibus turpis. Pellentesque porttitor diam nec posuere bibendum. In bibendum tellus in mattis posuere. Phasellus ultricies velit vitae leo facilisis placerat. Donec mattis, quam eget imperdiet venenatis, nulla justo placerat libero, feugiat tincidunt nisl felis at mauris."
+},
+{
+    "id": 7,
+    "image": "https://iugs-geoheritage.org/wp-content/uploads/2022/07/035-1_Marine-Reptile-Lagerstatte-from-the-Lower-Cretaceous-of-the-Ricaurte-Alto-1024x640.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Sitio de la Geodiversidad Lagerstätte de reptiles marinos",
+    "text": "El Lagerstätte en cuestión está entre los municipios de Villa de Leyva, Sáchica y Sutamarchán. Este sitio se le considera como Lagerstätte debido a su gran cantidad de fósiles de reptiles marinos, los cuales se encuentran en un estado de conservación excepcional."
+},
+{
+    "id": 8,
+    "image": "//live.staticflickr.com/6216/6347747402_15562d5a0e_b.jpg",
+    "revealed": false,
+    "x": 0,
+    "y": 0,
+    "title": "Nevado del Ruiz",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec finibus turpis. Pellentesque porttitor diam nec posuere bibendum. In bibendum tellus in mattis posuere. Phasellus ultricies velit vitae leo facilisis placerat. Donec mattis, quam eget imperdiet venenatis, nulla justo placerat libero, feugiat tincidunt nisl felis at mauris."
+}
+]}

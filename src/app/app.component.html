@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Memory Game</title>
   <link rel="stylesheet" href="app.component.css">
 </head>
+
 <body>
-  <div class="center">
-    <div class="card" *ngFor="let card of cardsTyped" (click)="revealCard(card)" >
-      <img src="{{ card.image }}" *ngIf="card.revealed" alt="Card Image" style="width: 10vw">
-      <div class="card-back" *ngIf="!card.revealed">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" alt="sexo" style="width: 10vw">
+  <div class="container">
+    <div class="row">
+    <div class="col">
+      <mat-grid-list cols="4" style="width: 45vw;">
+        <mat-grid-tile *ngFor="let card of cardsTyped" (click)="revealCard(card)">
+          <div class="card" [ngClass]="{'flipped': card.revealed}">
+            <div class="front" *ngIf="!card.revealed">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/University_of_Los_Andes_logo.svg/1200px-University_of_Los_Andes_logo.svg.png"
+                alt="card" style="width:12vw; height: 12vw;">
+            </div>
+            <div class="back" *ngIf="card.revealed">
+              <img [src]="card.image" alt="card" style="width:12vw; height: 12vw;">
+            </div>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+      <div class="col">
+        <div style="height: 25vh;"></div>
+        <h1>{{titulo}}</h1>
+        <p>{{texto}}</p>
       </div>
     </div>
   </div>
 </body>
+
 </html>
